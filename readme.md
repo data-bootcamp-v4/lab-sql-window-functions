@@ -49,13 +49,13 @@ By the end of this lab, you will have a better understanding of how to use windo
 
 ## Challenge 1
 
-This challenge consists of three exercises that will test your ability to use SQL RANK() function. You will use it to rank films by their length, rank films by length within the rating category, and find the actor or actress who has acted in the most number of films.
+This challenge consists of three exercises that will test your ability to use the SQL RANK() function. You will use it to rank films by their length, their length within the rating category, and by the actor or actress who has acted in the greatest number of films.
 
-1. Rank films by their length and create an output table that includes only the title, length, and rank columns. Filter out any rows with null or zero values in the length column.
+1. Rank films by their length and create an output table that includes the title, length, and rank columns only. Filter out any rows with null or zero values in the length column.
 
-2. Rank films by length within the rating category and create an output table that includes only the title, length, rating and rank columns. Filter out any rows with null or zero values in the length column.
+2. Rank films by length within the rating category and create an output table that includes the title, length, rating and rank columns only. Filter out any rows with null or zero values in the length column.
 
-3. Produce a list that shows, for each film in the Sakila database, the actor or actress who has acted in the most number of films, as well as the total number of films in which they have acted. *Hint: Use temporary tables, CTEs, or Views when appropiate to simplify your queries.*
+3. Produce a list that shows for each film in the Sakila database, the actor or actress who has acted in the greatest number of films, as well as the total number of films in which they have acted. *Hint: Use temporary tables, CTEs, or Views when appropiate to simplify your queries.*
 
 ## Challenge 2
 
